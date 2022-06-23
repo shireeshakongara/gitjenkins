@@ -1,0 +1,1 @@
+create table demo(Name varchar2(50));
