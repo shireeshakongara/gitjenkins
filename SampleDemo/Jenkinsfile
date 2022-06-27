@@ -20,5 +20,11 @@ pipeline {
             }
         }
     }
+    post{
+        always{
+            emailext body: '', subject: 'Summary', to: 'shireesha.kongara@gmail.com'
+       }
+    }
+    
     
 }
